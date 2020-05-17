@@ -26,7 +26,7 @@ import org.json.JSONTokener;
 public class ClientApp {
 
     private int SERVER_PORT = 9001;
-    private String SERVER_ADDRESS = "127.0.0.1";
+    private String SERVER_ADDRESS = "192.168.100.8";
     private String TRUST_STORE_PATH = "./keys/myTrustStore_4096.jts";
     private String TRUST_STORE_PASSWORD = "1234567";
     private BufferedReader in;
